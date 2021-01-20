@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: study-nacos
+  cloud:
+    nacos:
+      config:
+        username: cloudpath_dev_wr
+        password: 3wkM1MxW
+        namespace: c15fdd81-6e5f-4318-88b0-44ed425a11f7
+        name: IAM-GATEWAY
+        server-addr: 172.20.72.8:32230
+        file-extension: yaml
+
