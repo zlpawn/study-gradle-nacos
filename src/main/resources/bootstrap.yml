@@ -3,10 +3,15 @@ spring:
     name: study-nacos
   cloud:
     nacos:
-      config:
+      discovery:
+        server-addr: www.jlpipi.com:8848
+        namespace: c15fdd81-6e5f-4318-88b0-44ed425a11f7
         username: nacos
         password: nacos
-        namespace: c15fdd81-6e5f-4318-88b0-44ed425a11f7
-        name: IAM-GATEWAY-dev
-        server-addr: www.jlpipi.com:8848
-        file-extension: yaml
+#      config:
+#        username: nacos
+#        password: nacos
+#        namespace: c15fdd81-6e5f-4318-88b0-44ed425a11f7
+#        name: IAM-GATEWAY-dev
+#        server-addr: www.jlpipi.com:8848
+#        file-extension: yaml
